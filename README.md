@@ -3,7 +3,11 @@ An implementation of the k-Means clustering algorithm in Python to group words i
 
 The objective of this Python project was to cluster related words using the k-Means algorithm. 
 The target words were present as individual tokens in 35 files (for 35 clusters). 
-These words were converted into vectors using the pre-trained vectors of Glove. Link: http://nlp.stanford.edu/projects/glove/
+These words were converted into vectors using the pre-trained vectors of Glove. 
+Link: http://nlp.stanford.edu/projects/glove/
+
+Download link for pre-trained vectors: http://nlp.stanford.edu/data/glove.6B.zip. 
+In this project, 50-d vectors have been used.
 
 The file trained on a corpus of 6 billion words with each vector’s length 50 has been used. 
 These vectors were clustered by to the K-means algorithm. The clustering has been evaluated using the B-cubed measure.
